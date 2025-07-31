@@ -5,7 +5,7 @@ Você coordenador precisa analisar intermináveis listas de rematrícula de alun
 
 ## Instalação
 
-1) Baixar a extensão SIGAAmes em formato .zip (https://github.com/IgorAvilaPereira/SIGAA_AnaliseMatricula/archive/refs/heads/main.zip)
+1) Baixar a extensão em formato .zip (https://github.com/IgorAvilaPereira/SIGAA_AnaliseMatricula/archive/refs/heads/main.zip)
 2) Descompactar o .zip em algum diretório de sua escolha
 3) No Google Chrome entrar em "More Tools >> Extensions"
 4) Habilitar a opção "Developer mode"
