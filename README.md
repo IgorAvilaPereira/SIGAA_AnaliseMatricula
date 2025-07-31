@@ -27,7 +27,7 @@ Você coordenador precisa analisar intermináveis listas de rematrícula de alun
 
 ![demo3](demo2.png)
 
-* obs: repita isso para os demais alunos.
+4. Basta repetir o processo para os demais estudantes.
 
 ## Observações
 
