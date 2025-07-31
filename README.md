@@ -15,19 +15,19 @@ Você coordenador precisa analisar intermináveis listas de rematrícula de alun
 
 ## Uso
 
-1. Primeiramente é preciso instalar a extensão em seu navegador baseado no chromium.
+1. Primeiramente, é preciso instalar a extensão em seu navegador baseado no chromium.
 
-2. Depois da instalação, é preciso entrar no SIGAA com seu login e senha e acessar a página de análise de matrículas e selecionar algum aluno, conforme imagem abaixo:
+2. Depois da instalação, é preciso entrar no SIGAA e acessar a página de análise de matrículas e selecionar algum aluno, conforme imagem abaixo:
 
 ![demo1](demo1.png)
 
-3. Na página abaixo, clique no botão "Analisar" disponível na extensão e todos os checkboxes "Visto" serão marcados e o formulário, automaticamente, será submetido.
+3. Em seguida, depois de selecionar algum aluno da lista e acessar a página abaixo, clique no botão "Analisar" da extensão e todos os checkboxes "Visto" serão marcados e o formulário presente na página será, automaticamente, submetido.
 
 ![demo3](demo3.png)
 
 ![demo3](demo2.png)
 
-4. Basta repetir o processo para os demais estudantes.
+4. Repita o processo para os demais estudantes.
 
 ## Observações
 
