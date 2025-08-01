@@ -10,7 +10,7 @@ Você coordenador precisa analisar intermináveis listas de rematrícula de alun
 3) No Google Chrome entrar em "More Tools >> Extensions"
 4) Habilitar a opção "Developer mode"
 5) Clicar no botão "Load unpacked"
-6) Buscar a pasta descompactada do SIGAAmes
+6) Buscar a pasta descompactada
 7) E a instalação está completa!!
 
 ## Uso
