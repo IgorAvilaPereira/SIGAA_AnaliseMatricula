@@ -14,7 +14,7 @@ const novaJanela = window.open("", "_blank");
 let html = `
 <html>
 <head>
-<title>Valores da 3ª Coluna</title>
+<title>Emails</title>
 <style>
 body { font-family: Arial; padding: 20px; }
 .linha { margin-bottom: 6px; }
