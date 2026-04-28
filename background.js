@@ -1,3 +1,27 @@
+// relatorio csv
+function script3(){
+
+const table = document.querySelector("#relatorio > table");
+let csv = [];
+
+for (let row of table.rows) {
+    let cols = [];
+    for (let cell of row.cells) {
+        cols.push('"' + cell.innerText.trim() + '"');
+    }
+    csv.push(cols.join(","));
+}
+
+const blob = new Blob([csv.join("\n")], { type: "text/csv" });
+const a = document.createElement("a");
+
+a.href = URL.createObjectURL(blob);
+a.download = "tabela.csv";
+a.click();
+
+
+}
+
 function script2(){
 // Seleciona todas as terceiras células (td) do corpo da tabela
 const terceirasCelulas = document.querySelectorAll('table tbody tr td:nth-child(3)');
@@ -79,6 +103,17 @@ document.addEventListener("DOMContentLoaded", function () {
        chrome.scripting.executeScript({
          target: { tabId: tab.id },
          func: script2/*,
+           args: [totalDeAulas]*/
+       });
+     })()
+  });
+  
+     document.querySelector("#btn3").addEventListener("click", function () {     
+     (async () => {
+       const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+       chrome.scripting.executeScript({
+         target: { tabId: tab.id },
+         func: script3/*,
            args: [totalDeAulas]*/
        });
      })()
